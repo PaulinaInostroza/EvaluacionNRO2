@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+background-color: rgba(221, 105, 211, 0.2);
+justify-content: center;
+
+}
+nav {
+    background: rgba(85, 0, 124, 0.938);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+nav ul {
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 50px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    background-color:rgba(100, 2, 92, 0.801);
+    color: white;
+}
+
+#ev2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-size:38px;
+} 
+#ev2:hover{
+  color: rebeccapurple;
+  font-size: 44px;
+}
+#css{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    font-size:28px;
+    color: peru;
+    text-align: center;
+} 
+#css:hover{
+    color: rebeccapurple;
+    font-size: 29px;
+  }
+
+.container div{
+font-family: monospace;
+padding: 10px;
+/*padding-left: 350px;
+padding-right: 350px;*/
+font-size: 15px;
+text-align: center;
+justify-content: center;
+margin-left: 25%;
+margin-right: 25%;
+}
+.btn {
+    padding: 10px;
+    justify-content: center; 
+    margin-left: 45%;
+} 
+.btn button {
+    font-family:fantasy;
+    justify-content: center;
+    font-size:15px;
+    background-color: rgba(102, 51, 153, 0.712);
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+    width: 150px;
+    height: 45px;
+    
+} 
+#btn:hover{
+    background-color: rgba(102, 51, 153, 0.712);
+} 
+
+@media (max-width: 650px) {
+    ul {
+        background: rgba(102, 51, 153, 0.950);
+        position: fixed;
+        top: 50px;
+        width: 100%;
+        height: 100%;
+        text-align:left;
+    }
+     nav ul li {
+    display: block;
+    border-bottom: 1px solid white;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+ }
+ nav ul li:hover {
+    background-color: rgba(100, 2, 92, 0.801);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+}
+
+a:hover {
+    background-color: inherit;
+}
+
+}
